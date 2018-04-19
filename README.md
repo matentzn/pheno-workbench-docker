@@ -8,8 +8,7 @@ Run in background:
 
 Access app:
 
-`http://localhost:8080/browser-0.0.1/` in web browser (Chrome, Firefox, Edge, Opera)
+[http://localhost:8080/browser-0.0.1/](http://localhost:8080/browser-0.0.1/) in web browser (Chrome, Firefox, Edge, Opera)
 
 Stop:
-
-Check container id with `docker ps`, then `docker stop CONTAINERID`
+Hit ctrl+c in terminal.
