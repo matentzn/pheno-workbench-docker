@@ -4,7 +4,7 @@ To install:
 
 Run in background:
 
-`docker run -i -t -d -p 8080:8080 matentzn/pheno-workbench-docker`
+`docker run -i -t -p 8080:8080 matentzn/pheno-workbench-docker`
 
 Access app:
 
