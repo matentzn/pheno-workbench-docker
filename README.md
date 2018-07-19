@@ -2,9 +2,9 @@ To install:
 
 `docker pull matentzn/pheno-workbench-docker`
 
-Run in background:
+Run in background (needs quite a bit of memory to run smoothly):
 
-`docker run -i -t -p 8080:8080 matentzn/pheno-workbench-docker`
+`docker run -i -t -p 8080:8080 -e JAVA_OPTS='-Xms2G -Xmx8G' matentzn/pheno-workbench-docker`
 
 Access app:
 
